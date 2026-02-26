@@ -1,5 +1,7 @@
 # codehs-terminal
-How to install any language on codehs, and use a fully functional Ubuntu environment 
+How to install any language on codehs, and use a fully functional Ubuntu environment with admin acess to the machine, so be carefull. `rm -rf / --no-preserve-root`
+
+![fastfetch.png](https://github.com/speedskater1610/codehs-terminal/blob/main/imgs/fastfetch.png)
 
 To do this, first create a new sandbox program, and then add the 2 java files that I have here, `Main.java` and `Cmd.java`. After this save the program and run it, you will be met with this screen
 
@@ -21,6 +23,18 @@ to run them rust type
 ```bash
 > bash script_name.sh
 ```
+
+### Works or doesn't
+| software | version | works / doesn't / kinda |
+| --- | --- | ---|
+| gcc | 11.4.0 | works |
+| clang | 13.0.0 | works |
+| bash | 5.1.16 | works |
+| vim | 8.2 | kinda |
+| rustc | 1.93.1 | works * |
+| fastfetch | 2.59.0 | works * |
+
+* you must add the commands you want to run in the section for that in the bash file
 
 ## I would love to see what you have to add since this is a super simple terminal
 - Feel free to open a PR adding something or making something work.
